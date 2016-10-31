@@ -3,17 +3,16 @@
 
 ## Description
 
-For this assignment, write an http server that will hanlde a single resource, 
-backed by a persistant data store. 
+For this assignment, write an http server that will handle a single resource, backed by a persistent data store.
 
 It should respond to GET, POST, PUT and DELETE requests for a named resource of your choosing, for example "notes":
 
 * `GET` - A get request sent to `/notes` should respond with a list of all
-of the notes that have been saved thus far. A get request sent to 
+of the notes that have been saved thus far. A get request sent to
 `/notes/name_of_resource` should respond with that resource.
 
-* `POST` - The in-coming post request body should be saved 
-to storage. For example if a request 
+* `POST` - The in-coming post request body should be saved
+to storage. For example if a request
 is sent to `/notes` with a body of `{ noteBody: 'hello world' }` the store
 would now contain an object from that data.
 

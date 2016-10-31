@@ -1,0 +1,39 @@
+{
+  "name": "http-single-resource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run test && node lib/server-http.js",
+    "pretest": "npm run lint",
+    "test": "npm run test:run",
+    "test:run": "mocha",
+    "test:watch": "npm run test:run -- -w",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizutombo/http-single-resource.git"
+  },
+  "keywords": [
+    "http",
+    "server"
+  ],
+  "author": "Tom Shultz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mizutombo/http-single-resource"
+  },
+  "homepage": "https://github.com/mizutombo/http-single-resource#LAB",
+  "dependencies": {
+    "cowsay": "^1.1.8",
+    "figlet": "^1.2.0",
+    "sander": "^0.5.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  }
+}
