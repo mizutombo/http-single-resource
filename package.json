@@ -4,11 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "npm run test && node lib/server-http.js",
+    "start": "node lib/server-http.js",
     "pretest": "npm run lint",
-    "test": "npm run test:run",
-    "test:run": "mocha",
-    "test:watch": "npm run test:run -- -w",
     "lint": "eslint ."
   },
   "repository": {
