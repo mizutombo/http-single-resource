@@ -5,9 +5,6 @@
   "main": "server.js",
   "scripts": {
     "start": "npm run test && node index.js",
-    "test": "npm run test:run",
-    "test:run": "mocha",
-    "test:watch": "npm run test:run -- -w",
     "pretest": "npm run lint",
     "lint": "eslint ."
   },

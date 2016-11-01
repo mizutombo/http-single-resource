@@ -1,1 +1,4 @@
 
+    "test:run": "mocha",
+    "test": "npm run test:run",
+    "test:watch": "npm run test:run -- -w",
