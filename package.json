@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node lib/server-http.js",
+    "start": "node index.js",
     "pretest": "npm run lint",
     "lint": "eslint ."
   },
@@ -23,8 +23,6 @@
   },
   "homepage": "https://github.com/mizutombo/http-single-resource#LAB",
   "dependencies": {
-    "cowsay": "^1.1.8",
-    "figlet": "^1.2.0",
     "sander": "^0.5.1",
     "url": "^0.11.0"
   },
